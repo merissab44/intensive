@@ -199,15 +199,16 @@ div.calendar a{
 }
 
 footer{
-  height: 500px;
-  background-color: #333;
+  height: 550px;
+  background-color: rgb(11, 140, 190);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 footer h1{
   text-align: center;
-  color: white;
+  font-family: cursive;
+  color:white;
 }
 
 div.contact input{
@@ -216,17 +217,41 @@ div.contact input{
 }
 
 input{
-  width: 200px;
-  height: 50px;
-  margin: 2em;
+  background-color: white;
+  width: 250px;
+  height: 40px;
+  margin: 1.5em;
+  border: none;
+}
+::placeholder{
+  color: rgb(11, 140, 190);
+  font-family: cursive;
 }
 #message{
-  width: 180px;
+  width: 220px;
   height: 180px;
   padding: 1em;
+  border: none;
 }
-input[value^="Message"] {
-  text-align: start;
-  
-  padding: 0;
+div.contact a{
+  color: white;
+  padding: 12px;
+  margin-left: 140%;
+}
+
+div.contact{
+  margin: 40%;
+  margin-top: 0;
+}
+
+#button{
+  border: none;
+  width: 250px;
+  outline: none;
+  padding: 15px;
+  font-size: 20px;
+  background-color: white;
+  color: rgb(11, 140, 190);
+  margin-left: 20px;
+  font-family: cursive;
 }
