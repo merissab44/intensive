@@ -15,6 +15,7 @@
         </section>
           <!-- end of banner -->
       <section id="Card" class="section">
+        <h1>About</h1>
           <!-- cards -->
         <div id="cards">
           <ul>
@@ -51,15 +52,21 @@
             </li>
           </ul>
         </div>
-        <a href="calendar">
-          <button>Book Appointment</button>
-        </a>
+        <div class="calendar">
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+          <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/merissab/lash-appointments'});return false;">Book Appointment</a>
+          <!-- Calendly link widget end -->
+          </div>
       </section>
-        <!-- end of cards -->
-    <footer id="calendar">
-      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23039BE5&amp;ctz=America%2FLos_Angeles&amp;src=bWVyaXNzYS5icmlkZ2VtYW5Ac3R1ZGVudHMubWFrZXNjaG9vbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043&amp;showCalendars=1&amp;showNav=1&amp;showTitle=0&amp;showPrint=0&amp;showTabs=1" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-      <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=M3FrcHE0bjFmbm9uYWpuYjVlcHNxNmVlb29fMjAyMDEwMTNUMTYzMDAwWiBtZXJpc3NhLmJyaWRnZW1hbkBzdHVkZW50cy5tYWtlc2Nob29sLmNvbQ&amp;tmsrc=merissa.bridgeman%40students.makeschool.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+    <footer>
+      <h1>Contact Me</h1>
+      <div class="contact">
+        <input id="name" placeholder="Name" type="text">
+        <input id="email" placeholder="Email" type="email">
+        <input id="message" placeholder="Message" type="textarea">
+      </div>
     </footer>
-    <script src="script.js"></script>
+      <script src="script.js"></script>
     </body>
 </html>

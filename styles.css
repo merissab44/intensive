@@ -5,6 +5,11 @@
 html, body {
   height: 100%;
 }
+body{
+  background-image: url(./images/butterfly.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 section {
   position: relative;
   width: 100%;
@@ -40,6 +45,7 @@ section h1 {
 background-image: url(./images/butterfly.jpg);
 background-size: cover;
 background-repeat: no-repeat;
+border-bottom: none;
 }
 
 .section a {
@@ -123,7 +129,7 @@ height: 500px;
 margin: 1em;
 background-color: #eee;
 border: none;
-box-shadow: 0 0 22px rgba(0, 0, 0, .44);
+box-shadow: 0 0 22px rgba(0, 0, 0, .5);
 color: rgb(11, 140, 190);
 font-family: cursive;
 font-size: 25px;
@@ -167,4 +173,60 @@ font-size: 15px;
 width: 150px;
 height: 50px;
 background-color: rgb(0,180,250);
+}
+#Card h1{
+  padding: 0.25em;
+  font-size: 50px;
+  width: 180px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+div.calendar{
+  background-color: rgb(11, 140, 190);
+  width: 250px;
+  height:60px;
+  border-radius: 50%;
+  margin-left: 45%;
+  margin-top: 2.5%;
+}
+
+div.calendar a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-right:50%;
+  margin-bottom: 0;
+}
+
+footer{
+  height: 500px;
+  background-color: #333;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer h1{
+  text-align: center;
+  color: white;
+}
+
+div.contact input{
+  display: flex;
+  flex-direction: row;
+}
+
+input{
+  width: 200px;
+  height: 50px;
+  margin: 2em;
+}
+#message{
+  width: 180px;
+  height: 180px;
+  padding: 1em;
+}
+input[value^="Message"] {
+  text-align: start;
+  
+  padding: 0;
 }
