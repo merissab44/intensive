@@ -11,6 +11,10 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
+div{
+  width: 100vw;
+  height: 100vh;
+}
 section {
   position: relative;
   width: 100%;
