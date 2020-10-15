@@ -17,16 +17,16 @@ body{
 } */
 section {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 section::after {
   position: absolute;
   bottom: 0;
   left: 0;
   content: '';
-  width: 100%;
-  height: 80%;
+  width: 100vw;
+  height: 80vh;
 }
 section h1 {
   position: absolute;
@@ -165,9 +165,6 @@ text-decoration: dashed;
 list-style-type: dashed;
 }
 
-footer{
-height: 800px
-}
 iframe{
 align-self: center;
 }
