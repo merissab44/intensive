@@ -1,24 +1,17 @@
-* {
+*{
   margin: 0;
   padding: 0;
-}
-html, body {
-  width: 100vw;
-  height: 100vh;
 }
 body{
   background-image: url(./images/butterfly.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-/* div{
   width: 100vw;
-  height: 100vh;
-} */
+  height: 150vh;
+}
 section {
   position: relative;
   width: 100vw;
-  height: 100vh;
 }
 section::after {
   position: absolute;
@@ -45,14 +38,8 @@ section h1 {
   background-image: url(./images/lashes.gif) ;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 840px;
 }
-#Card { 
-background-image: url(./images/butterfly.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-border-bottom: none;
-}
-
 .section a {
   position: absolute;
   bottom: 20px;
@@ -183,31 +170,23 @@ background-color: rgb(0,180,250);
   height: 60px;
   background-color: rgba(0, 0, 0, 0.7);
 }
-div.calendar{
-  background-color: rgb(11, 140, 190);
-  width: 250px;
-  height:60px;
-  border-radius: 50%;
-  margin-left: 45%;
-  margin-top: 2.5%;
-}
 
 div.calendar a{
-  text-decoration: none;
+  text-align: center;
   font-size: 20px;
   color: black;
-  margin-right:50%;
-  margin-bottom: 0;
+  padding: 0;
+  background-color: rgb(11, 140, 190);
 }
 
 footer{
-  height: 550px;
+  height: 200px;
   background-color: rgb(11, 140, 190);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-footer h1{
+footer h2{
   text-align: center;
   font-family: cursive;
   color:white;
@@ -237,13 +216,7 @@ input{
 }
 div.contact a{
   color: white;
-  padding: 12px;
-  margin-left: 140%;
-}
-
-div.contact{
-  margin: 40%;
-  margin-top: 0;
+  padding: 1em;
 }
 
 #button{
@@ -256,4 +229,38 @@ div.contact{
   color: rgb(11, 140, 190);
   margin-left: 20px;
   font-family: cursive;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 40vw;
+  position: relative;
+  margin: auto;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }

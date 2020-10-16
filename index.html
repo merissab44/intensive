@@ -8,6 +8,7 @@
     </head>
 
     <body>
+      <div>
       <!-- banner -->
       <section id="Banner" class="section"> 
         <h1>Lashed By Lani</h1>
@@ -51,6 +52,31 @@
             </li>
             <li class="card">
               <h4>Clients</h4>
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="./images/client1.jpeg" style="width:350px; height: 350px;">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="./images/client1d.jpeg" style="width:350px">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="./images/client2.jpeg" style="width:350px">
+                </div>
+                <div class="mySlides fade">
+                  <img src="./images/client3.jpeg" style="width:350px">
+                </div>
+              
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span onclick="currentSlide(1)"></span>
+                <span onclick="currentSlide(2)"></span>
+                <span onclick="currentSlide(3)"></span>
+                <span onclick="currentSlide(4)"></span>
+              </div>
             </li>
           </ul>
         </div>
@@ -62,17 +88,14 @@
           </div>
       </section>
     <footer>
-      <h1>Contact Me</h1>
-      <div class="contact">
-        <input id="name" placeholder="Name" type="text">
-        <input id="email" placeholder="Email" type="email">
-        <input id="message" placeholder="Message" type="textarea">
-        <button id="button" type="submit">Send</button>
+      <h2>Follow me </h2>
+        <div class="contact">
         <a href="https://www.instagram.com/lashedbylaniii/">
           <i class="fab fa-instagram fa-3x"></i>
         </a>
       </div>
     </footer>
       <script src="script.js"></script>
+    </div>
     </body>
 </html>
