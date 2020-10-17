@@ -239,3 +239,9 @@ div.contact a{
   .section{ width: 50%; height: 50%;}
   div.contact input{width: 50%; height: 50%;}
 }
+
+@media only screen and (max-width: 1300px) {
+    .section{width: 50%}
+    div.contact input{width: 50%; height: 50%;}
+    body{width: auto; height: auto;}
+  }
