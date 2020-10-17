@@ -3,28 +3,30 @@
     <head>
         <title>Lashed By Lani</title>
         <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/ca5227d733.js" crossorigin="anonymous"></script>
-        <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+        <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=0" />
     </head>
 
     <body>
       <div>
+        <nav id="top-nav">
+          <a href="#home">Home</a>
+          <a href="#client">Client</a>
+          <a href="#price">Prices</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
       <!-- banner -->
       <section id="Banner" class="section"> 
         <h1>Lashed By Lani</h1>
-          <a href="#Card">
-            <span></span>
-          </a>
         </section>
           <!-- end of banner -->
       <section id="Card" class="section">
-        <h1>About</h1>
           <!-- cards -->
         <div id="cards">
           <ul>
             <li class="card">
               <h4>Prices</h4>
-              <ul class="price">
+              <ul  id="price" class="price">
                 <li>Classic Set: $50</li>
                 <li>Hybrid Set: $55</li>
                 <li>Volume Set: $60</li>
@@ -51,7 +53,7 @@
                 </ul>
             </li>
             <li class="card">
-              <h4>Clients</h4>
+              <h4 id="client">Clients</h4>
               <div class="slideshow-container">
 
                 <!-- Full-width images with number and caption text -->
@@ -89,7 +91,7 @@
       </section>
     <footer>
       <h2>Follow me </h2>
-        <div class="contact">
+        <div id="contact" class="contact">
         <a href="https://www.instagram.com/lashedbylaniii/">
           <i class="fab fa-instagram fa-3x"></i>
         </a>
