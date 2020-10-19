@@ -75,6 +75,12 @@ body{
 .logo{
   font-size: 20px;
 }
+.Prices{
+  height: 100vh;
+}
+.Instructions{
+  height: 100vh;
+}
 .card{
   list-style: none;
   display: flex;
@@ -86,21 +92,16 @@ body{
 .card li{
   display: flex;
   flex-direction: column;
-  background: white;
   color: rgb(0,180,250);
   font-family: cursive;
-  margin: 30px;
-  align-items: center;
-  line-height: 0;
-  justify-content: flex-start;
-  border: none;
-  box-shadow: 0 0 22px rgba(0, 0, 0, .44);
-}
-section{
+  font-size: 25px;
   margin: 20px;
+  align-items: center;
+  line-height: 1em;
+  justify-content: flex-start;
 }
 .card h4{
-  font-size: 20px;
+  font-size: 35px;
   font-family: cursive;
   color: rgb(0,180,250);
 }
@@ -111,4 +112,36 @@ article{
   left: 55%;
   top: 70%;
   width: 40%;
+}
+.afterCare{
+  left: 40%;
+  font-family: cursive;
+  font-size: 30px;
+}
+div.calendar a{
+  font-family: cursive;
+  text-decoration: none;
+  color: black;
+  background: rgb(21, 144, 192);
+  padding: 15px;
+}
+footer{
+  height: 20px;
+}
+footer > h2{
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+}
+footer a i{
+  z-index: 1;
+  margin-top: 90%;
+}
+.fa-3x {
+  font-size: 3em;
+  align-self: center;
+  margin-left: 50%;
+  margin-top: 0;
+  color: white;
 }

@@ -4,16 +4,17 @@
         <title>Lashed By Lani</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" media="screen and (max-width: 1300px)" href="smallscreen.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=0" />
     </head>
 
     <body>
       <div>
         <nav class="top-nav">
-          <a href="#">Home</a>
           <a href="#client">Client</a>
-          <a class="logo" href="#"><img src="./images/lashes.gif"> Lashed By Lani</a>
           <a href="#price">Prices</a>
+          <a class="logo" href="#"><img src="./images/lashes.gif"> Lashed By Lani</a>
+          <a href="#instructions">Instructions</a>
           <a href="#contact">Contact</a>
         </nav>
           <div class="container">
@@ -45,7 +46,7 @@
                     </li>
                   </ul>
                 </div>
-            <section id="prices">
+            <section id="prices" class="Prices">
             <div class="parallax-animation">
               <h2 id="price">Prices</h2>
             </div>
@@ -72,23 +73,22 @@
             <div class="parallax-animation">
               <h2>After Care</h2>
             </div>
-            <section id="instructions">
+            <section id="instructions" class="Intructions">
                 <article class="afterCare">
-                  <ul>
-                  <li>Don't wet lashes for up to 48hrs.</li>
-                  <li>Don't sleep on lashes.</li>
-                  <li>Avoid oil-based products around eyes(mascara, eyeliner, cream, etc).</li>
-                  <li>Don't rub or pluck eyelashes.</li>
-                  <li>brush and clean daily.</li>
-                  <small>aftercare kits for purchase</small>
-                  <li>Fills can be scheduled 2-4 weeks.</li>
+                  Don't wet lashes for up to 48hrs.<br>
+                  Don't sleep on lashes.<br>
+                  Avoid oil-based products around eyes(mascara, eyeliner, cream, etc).<br>
+                  Don't rub or pluck eyelashes.<br>
+                  brush and clean daily.<br>
+                  aftercare kits for purchase.<br>
+                  Fills can be scheduled 2-4 weeks.<br>
                 </ul>
                 </article>
             </section>
         <div class="calendar">
           <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
           <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-          <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/merissab/lash-appointments'});return false;">Book Appointment</a>
+          <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/merissab/lash-appointments'});return true;">Book Appointment</a>
           <!-- Calendly link widget end -->
           </div>
       </section>
