@@ -10,5 +10,11 @@ I also wanted her to not have to go through social media for her business becaus
 
 track of all the differnet appointments and having to constantly explain prices, procedures etc.
 
-  <img src="images/Home.png" width="100" height="100">
+  <img src="images/Home.png" width="200" height="200">
+  <img src="images/prices.png" width="200" height="200">
+  <img src="images/instructions.png" width="200" height="200">
+  <img src="images/footer.png" width="200" height="200">
+  <img src="images/calendar.png" width="200" height="200">
+  <img src="images/confirmation.png" width="200" height="200">
+  
 
