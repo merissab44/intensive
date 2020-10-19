@@ -3,6 +3,7 @@
 Welcome to Lashed By Lani!!
 
 Why I did It:
+
 For my intensive project I decided to create a website to assist one of my closest friends with her new business! 
 
 I wanted to create something that will help her brand stand out and that helped me come up with her color theme/palette for her website. 
@@ -13,6 +14,7 @@ track of all the differnet appointments and having to constantly explain prices,
 
 
 What's on it: 
+
 On the website, I create a top nav with her logo and name in the middle. I also have four sections two on either side of the logo.
 
 I also created a carousel that shows off what she's done so far. As she progresses in her business, more photos can be added.
