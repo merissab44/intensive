@@ -10,3 +10,5 @@ I also wanted her to not have to go through social media for her business becaus
 
 track of all the differnet appointments and having to constantly explain prices, procedures etc.
 
+Screen Shot 2020-10-19 at 9.25.41 AM.png
+
